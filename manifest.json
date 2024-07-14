@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Text Translator",
+  "version": "1.0",
+  "description": "Translate selected text to your preferred language.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/InPlaceTranslateLogo.png",
+      "48": "icons/InPlaceTranslateLogo.png",
+      "128": "icons/InPlaceTranslateLogo.png"
+    }
+  },
+  "icons": {
+    "16": "icons/InPlaceTranslateLogo.png",
+    "48": "icons/InPlaceTranslateLogo.png",
+    "128": "icons/InPlaceTranslateLogo.png"
+  }
+}
